@@ -1,0 +1,61 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+xmodmap "/home/joaquim/.Xmodmap"
+
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+#
+# unclutter -idle 2 &
+# wmnd &
+# wmsmixer -w &
+# idesk &
+#
+#feh --bg-scale /usr/share/backgrounds/linuxmint/bookwood_linuxmint.jpg
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+compton &
+export NO_AT_BRIDGE=1 
+
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/show-tray-icon -s true 
+/home/joaquim/.config/fbmenugen/fbmenugen -g -i
+
+# Debian-local change:
+#   - fbautostart has been added with a quick hack to check to see if it
+#     exists. If it does, we'll start it up by default.
+which fbautostart > /dev/null
+if [ $? -eq 0 ]; then
+    fbautostart
+fi
+
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+
+fluxbox &
+fbpid=$!
+sleep 1
+{
+    nitrogen --restore &
+    alttab -s 0 &
+    #tint2 &
+    nm-applet &
+    touchpad-indicator &
+    clipit &
+    redshift-gtk &
+    mintupdate-launcher &
+	conky -c .conky/Minimalis\ Conky/conky.conf &
+    volumeicon &
+    xfce4-power-manager &
+	flameshot &
+    
+     # ...other apps to run after fluxbox startup...
+} &
+wait $fbpid
+
+#exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "/home/joaquim/.fluxbox/log"
