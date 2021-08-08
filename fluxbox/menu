@@ -1,0 +1,252 @@
+#
+## Menu generated with fbmenugen v0.85
+#
+
+[begin] (Fluxbox)
+[encoding] {UTF-8}
+[submenu] (Browser) <>
+  [exec] (Firefox) {firefox} </home/joaquim/.config/fbmenugen/icons/2e092fa85792bec4adecfbf25093a5e9.png>
+  [exec] (Chrome) {google-chrome} </home/joaquim/.config/fbmenugen/icons/5e016ce41fab1e5c4eb25202bc8596b3.png>
+[end]
+[submenu] (Social) <>
+  [exec] (Telegram) {/home/joaquim/Telegram/Telegram} </home/joaquim/.config/fbmenugen/icons/602aadc55a20d401e2e9a3aad560dbd5.png>
+  [exec] (Discord) {discord} </home/joaquim/.config/fbmenugen/icons/9a34517c27ea2de57ebe24cc0c71b54f.png>
+[end]
+[submenu] (Music) <>
+  [exec] (Spotify) {spotify} </home/joaquim/.config/fbmenugen/icons/5e016ce41fab1e5c4eb25202bc8596b3.png>
+  [exec] (Clementine) {clementine} </home/joaquim/.config/fbmenugen/icons/5014408e711d98dd087aa0ed5051c2b0.png>
+[end]
+[submenu] (Tools) <>
+  [exec] (Virtualbox) {virtualbox} </home/joaquim/.config/fbmenugen/icons/0dbe775e0ebfa30d924f7b1324def7e6.png>
+  [exec] (Wireshark) {wireshark} </home/joaquim/.config/fbmenugen/icons/a80605a2958467b9223ced3442deded4.png>
+[end]
+[separator]
+  [exec] (Terminal) {xfce4-terminal} </home/joaquim/.config/fbmenugen/icons/16c9daa633fa95e6865491442608acc0.png>
+  [exec] (File Manager) {xdg-open .} </home/joaquim/.config/fbmenugen/icons/735eaed294790e7aaee4d2f640f4ab55.png>
+  [exec] (Run command) {xfce4-appfinder -c} </home/joaquim/.config/fbmenugen/icons/6ddf4243a11687383fec86854b58537e.png>
+[separator]
+[submenu] (Accessories) </home/joaquim/.config/fbmenugen/icons/a67a7f4a23899f293a8901913314031c.png>
+  [exec] (Application Finder) {xfce4-appfinder} </home/joaquim/.config/fbmenugen/icons/e47b56b659f9aa0fc72e474b370b08d1.png>
+  [exec] (Archive Manager) {engrampa} </home/joaquim/.config/fbmenugen/icons/06d6a7ccb6a7836c6d7556b8db6c5b9e.png>
+  [exec] (Archive Manager) {file-roller} </home/joaquim/.config/fbmenugen/icons/06d6a7ccb6a7836c6d7556b8db6c5b9e.png>
+  [exec] (Bulk Rename) {thunar --bulk-rename} </home/joaquim/.config/fbmenugen/icons/b3522306e8c0dac30be90a73ded14762.png>
+  [exec] (Calculator) {gnome-calculator} </home/joaquim/.config/fbmenugen/icons/9fc8313fef06c47c2898950eec4b586f.png>
+  [exec] (Catfish File Search) {/usr/bin/catfish} </home/joaquim/.config/fbmenugen/icons/42860218b2a4665baa2b64d39a46ed5a.png>
+  [exec] (Character Map) {gucharmap} </home/joaquim/.config/fbmenugen/icons/1791c060496307d37777302fa3eaba5f.png>
+  [exec] (ClipIt) {clipit} </home/joaquim/.config/fbmenugen/icons/fdd80ba459a370bd2d6c2feef3145dc2.png>
+  [exec] (Color selection dialog) {mate-color-select} </home/joaquim/.config/fbmenugen/icons/927eb5f851f3cded3c8e9e671e5ae913.png>
+  [exec] (Conky Manager) {conky-manager2} </home/joaquim/.config/fbmenugen/icons/3a0bfc768ba087f8390144bc7caf121a.png>
+  [exec] (Daily Wallpaper) {/usr/bin/daily-wallpaper} </home/joaquim/.config/fbmenugen/icons/9d6549c5967f7669e3612a3ec545bed3.png>
+  [exec] (Disks) {gnome-disks} </home/joaquim/.config/fbmenugen/icons/74c7e43ddc6baa7a7f6745db0ccd5fda.png>
+  [exec] (Document Viewer) {xreader} </home/joaquim/.config/fbmenugen/icons/4b74352ca359c1e96f84bea0861add7f.png>
+  [exec] (FeatherPad) {featherpad} </home/joaquim/.config/fbmenugen/icons/0cc0237e702a2ddd0638296c966baa64.png>
+  [exec] (File Browser) {/usr/bin/caja --no-desktop --browser} </home/joaquim/.config/fbmenugen/icons/735eaed294790e7aaee4d2f640f4ab55.png>
+  [exec] (File Manager PCManFM) {pcmanfm} </home/joaquim/.config/fbmenugen/icons/735eaed294790e7aaee4d2f640f4ab55.png>
+  [exec] (Files) {nemo} </home/joaquim/.config/fbmenugen/icons/735eaed294790e7aaee4d2f640f4ab55.png>
+  [exec] (Fonts) {gnome-font-viewer} </home/joaquim/.config/fbmenugen/icons/b7e28221600910513ae79e8eec6eb167.png>
+  [exec] (Image Viewer) {xviewer} </home/joaquim/.config/fbmenugen/icons/cb744f1c94c8d2ceedca6cc0a45ae7f4.png>
+  [exec] (Logs) {gnome-logs} </home/joaquim/.config/fbmenugen/icons/63bbb5d91634a7f3e63277c676b7d22d.png>
+  [exec] (Menu Editor) {/usr/bin/menulibre} </home/joaquim/.config/fbmenugen/icons/1c88d282c93f858cc84b22089eeb3913.png>
+  [exec] (nitrogen) {nitrogen} </home/joaquim/.config/fbmenugen/icons/f21bc20e202661aa67c8db3ada1a812e.png>
+  [exec] (Notes) {sticky} </home/joaquim/.config/fbmenugen/icons/2e3d93f9ca33a727447163c46d4ceb60.png>
+  [exec] (Onboard) {onboard} </home/joaquim/.config/fbmenugen/icons/963e6c621cfe292187d1b58286216554.png>
+  [exec] (Parcellite) {parcellite} </home/joaquim/.config/fbmenugen/icons/f6a3e929e0e34b1289d1f9d78b5da96a.png>
+  [exec] (Passwords and Keys) {seahorse} </home/joaquim/.config/fbmenugen/icons/b2a3feb561fe4583d83958e882c61c99.png>
+  [exec] (Pluma) {pluma} </home/joaquim/.config/fbmenugen/icons/39664cbfbd803abe112c5905c88e78a5.png>
+  [exec] (Redshift) {redshift-gtk} </home/joaquim/.config/fbmenugen/icons/7919ad3247091e27a72c51b4db1a751d.png>
+  [exec] (Run Program...) {xfce4-appfinder --collapsed} </home/joaquim/.config/fbmenugen/icons/e47b56b659f9aa0fc72e474b370b08d1.png>
+  [exec] (Screenshot) {xfce4-screenshooter} </home/joaquim/.config/fbmenugen/icons/79de744475007aee3d7509a5a9977fc8.png>
+  [exec] (Task Manager) {xfce4-taskmanager} </home/joaquim/.config/fbmenugen/icons/b99b2f19574d3b52689cfb94b759876c.png>
+  [exec] (Text Editor) {gedit} </home/joaquim/.config/fbmenugen/icons/bcfebcf7da19361fc0fceb03d9dbafaf.png>
+  [exec] (Text Editor) {xed} </home/joaquim/.config/fbmenugen/icons/39664cbfbd803abe112c5905c88e78a5.png>
+  [exec] (Thunar File Manager) {thunar} </home/joaquim/.config/fbmenugen/icons/b3522306e8c0dac30be90a73ded14762.png>
+  [exec] (Touchpad Indicator) {/usr/bin/touchpad-indicator} </home/joaquim/.config/fbmenugen/icons/8a167e4929e6b31555617e15cd407cff.png>
+  [exec] (USB Image Writer) {mintstick -m iso} </home/joaquim/.config/fbmenugen/icons/3fb42f0bab67c13ddeae5c1f2c5c0a37.png>
+  [exec] (USB Stick Formatter) {mintstick -m format} </home/joaquim/.config/fbmenugen/icons/3fb42f0bab67c13ddeae5c1f2c5c0a37.png>
+  [exec] (Vim) {xfce4-terminal -e 'vim'} </home/joaquim/.config/fbmenugen/icons/e54895bc1884312e703b3e639c586357.png>
+  [exec] (Warpinator) {warpinator} </home/joaquim/.config/fbmenugen/icons/42551d74986a384cdd7bb9d81cfa1390.png>
+  [exec] (Xarchiver) {xarchiver} </home/joaquim/.config/fbmenugen/icons/06d6a7ccb6a7836c6d7556b8db6c5b9e.png>
+[end]
+[submenu] (Graphics) </home/joaquim/.config/fbmenugen/icons/5d1771f0ab149c43db8306556c3b5e28.png>
+  [exec] (Document Scanner) {simple-scan} </home/joaquim/.config/fbmenugen/icons/c52a928a3d77c6ce7282319131b3e476.png>
+  [exec] (Drawing) {drawing} </home/joaquim/.config/fbmenugen/icons/4f707cc8e6a94fdfe082f04d7c8c4c52.png>
+  [exec] (Flameshot) {/usr/bin/flameshot} </home/joaquim/.config/fbmenugen/icons/8a7aed616cbf442a5f4bd55ae37c019d.png>
+  [exec] (GNU Image Manipulation Program) {gimp-2.10} </home/joaquim/.config/fbmenugen/icons/834bdde3ce97d278ea0e93994be54505.png>
+  [exec] (nomacs) {nomacs} </home/joaquim/.config/fbmenugen/icons/e229a56d0fd25bab6bb476fcf2100f15.png>
+  [exec] (Pix) {pix} </home/joaquim/.config/fbmenugen/icons/1f05cbec45e6d6dbc06fb4e9b344a0b7.png>
+[end]
+[submenu] (Multimedia) </home/joaquim/.config/fbmenugen/icons/72a799e85c60d8bb23d7121dc14cc7f9.png>
+  [exec] (Celluloid) {celluloid} </home/joaquim/.config/fbmenugen/icons/6621942022a5c4f0119962c9637bba71.png>
+  [exec] (Clementine) {clementine} </home/joaquim/.config/fbmenugen/icons/acd954c01dd2ec52f4da3ff7288438fe.png>
+  [exec] (Hypnotix) {hypnotix} </home/joaquim/.config/fbmenugen/icons/d0b1f0e69c3d489c4cc6031ddb24df9a.png>
+  [exec] (OBS Studio) {obs} </home/joaquim/.config/fbmenugen/icons/fedb45cda1d6a6f1d4f312e29e8f0be5.png>
+  [exec] (PNMixer) {pnmixer} </home/joaquim/.config/fbmenugen/icons/e97564c32d966c22b71fb49c3f70c689.png>
+  [exec] (PulseAudio Volume Control) {pavucontrol} </home/joaquim/.config/fbmenugen/icons/86dc7fa08a88554cbfcdd6ed573d2162.png>
+  [exec] (Rhythmbox) {rhythmbox} </home/joaquim/.config/fbmenugen/icons/cc445013b11acdc383e520df0d55a8d7.png>
+  [exec] (SimpleScreenRecorder) {simplescreenrecorder --logfile} </home/joaquim/.config/fbmenugen/icons/dac05bbf67e17500e1b2d9150c34bca7.png>
+  [exec] (VLC media player) {/usr/bin/vlc --started-from-file} </home/joaquim/.config/fbmenugen/icons/86c2b6cd4779fbb5b2112c6b5a88defc.png>
+[end]
+[submenu] (Network) </home/joaquim/.config/fbmenugen/icons/fe464c33fd832d8d2f9d9bcd048a0ebb.png>
+  [exec] (Discord) {/usr/share/discord/Discord} </home/joaquim/.config/fbmenugen/icons/fed2fd4a12f61159f09d07cd3a0ebb8a.png>
+  [exec] (Firefox Web Browser) {firefox} </home/joaquim/.config/fbmenugen/icons/e7dbd32c9befcb2ba14e3a50e28d5ac5.png>
+  [exec] (Google Chrome) {/usr/bin/google-chrome-stable} </home/joaquim/.config/fbmenugen/icons/10388274e1aad75f00d6d7b8ce9998f9.png>
+  [exec] (HexChat) {hexchat --existing} </home/joaquim/.config/fbmenugen/icons/3c3cdedd06bab5c73265170f9b03af84.png>
+  [exec] (MEGAsync) {megasync} </home/joaquim/.config/fbmenugen/icons/08c8995fbb35f3f5cdb1812de547a0ae.png>
+  [exec] (Microsoft Teams - Preview) {teams} </home/joaquim/.config/fbmenugen/icons/28b6f2c533fa84690aa0a689bf94d3bd.png>
+  [exec] (Telegram Desktop) {/home/joaquim/Telegram/Telegram -workdir /home/joaquim/.local/share/TelegramDesktop/ --} </home/joaquim/.config/fbmenugen/icons/75cba02a915b9bb8da523275174d77df.png>
+  [exec] (Thunderbird Mail) {thunderbird} </home/joaquim/.config/fbmenugen/icons/350f1bd523b81e3e4562e3406a35d0ee.png>
+  [exec] (Transmission) {transmission-gtk} </home/joaquim/.config/fbmenugen/icons/6914b728921a78b789c1a0f88e5e96d7.png>
+  [exec] (Web Apps) {webapp-manager} </home/joaquim/.config/fbmenugen/icons/76e060327b3a890a42434678c20bf7f1.png>
+  [exec] (Wireshark) {wireshark} </home/joaquim/.config/fbmenugen/icons/ec9bfaeeab0b312af875ae6034f06ab0.png>
+[end]
+[submenu] (Office) </home/joaquim/.config/fbmenugen/icons/6488ca35cfedabfdd3f455840488f180.png>
+  [exec] (Dictionary) {xfce4-dict} </home/joaquim/.config/fbmenugen/icons/950de3d60be89c9291c5b27952a62d10.png>
+  [exec] (LibreOffice Base) {libreoffice --base} </home/joaquim/.config/fbmenugen/icons/bf4f466ec0bc9454be8a4a59f29b2b64.png>
+  [exec] (LibreOffice Calc) {libreoffice --calc} </home/joaquim/.config/fbmenugen/icons/ed3638036c7ccec3914c18306bc6d44c.png>
+  [exec] (LibreOffice Draw) {libreoffice --draw} </home/joaquim/.config/fbmenugen/icons/a2bae57c7e450554ca496c8d837c7ebb.png>
+  [exec] (LibreOffice Impress) {libreoffice --impress} </home/joaquim/.config/fbmenugen/icons/71ecc48e735829b15c45f8db6b3e3d9b.png>
+  [exec] (LibreOffice Math) {libreoffice --math} </home/joaquim/.config/fbmenugen/icons/47e173b928860cb83cc12d54be7e5bcd.png>
+  [exec] (LibreOffice Writer) {libreoffice --writer} </home/joaquim/.config/fbmenugen/icons/457364c6831346de13244f963f801456.png>
+  [exec] (LibreOffice) {libreoffice} </home/joaquim/.config/fbmenugen/icons/86edcd847b432c13d5141dacdb46707c.png>
+[end]
+[submenu] (Other) </home/joaquim/.config/fbmenugen/icons/257f11a34fd87fa888aff68c998e84e2.png>
+  [exec] (Help) {yelp help:mate-user-guide} </home/joaquim/.config/fbmenugen/icons/a0b0b487151a4bcbeee7af4666b1b663.png>
+  [exec] (Packet Tracer 8.0.1) {/opt/pt/packettracer} </home/joaquim/.config/fbmenugen/icons/93121b5912c04eff1c3566df238f84a6.png>
+[end]
+[submenu] (Settings) </home/joaquim/.config/fbmenugen/icons/a67a7f4a23899f293a8901913314031c.png>
+  [exec] (About Me) {/usr/bin/mugshot} </home/joaquim/.config/fbmenugen/icons/34fb43dd69d8d4bd4f3f3ff972a837cd.png>
+  [exec] (Accessibility) {xfce4-accessibility-settings} </home/joaquim/.config/fbmenugen/icons/5f3361725fc71fa6ef716fa2fe2f4244.png>
+  [exec] (Advanced Network Configuration) {nm-connection-editor} </home/joaquim/.config/fbmenugen/icons/9e24eaef30823765655eeaf05607307f.png>
+  [exec] (Appearance) {xfce4-appearance-settings} </home/joaquim/.config/fbmenugen/icons/3e80739c67966809e9b55e96c784f339.png>
+  [exec] (ARandR) {arandr} </home/joaquim/.config/fbmenugen/icons/a196c8242db08d1e5e8eed4a5ce8f6cd.png>
+  [exec] (Backup Tool) {mintbackup} </home/joaquim/.config/fbmenugen/icons/20e0abf05137a8632db3f150230864aa.png>
+  [exec] (Bluetooth) {blueberry} </home/joaquim/.config/fbmenugen/icons/cae6fe99e23cc34f7e3e8e729ad31a5d.png>
+  [exec] (Color Profiles) {xfce4-color-settings} </home/joaquim/.config/fbmenugen/icons/275b965f19f1cdec573edeb60a79e6e4.png>
+  [exec] (Customize Look and Feel) {lxappearance} </home/joaquim/.config/fbmenugen/icons/3e80739c67966809e9b55e96c784f339.png>
+  [exec] (Default Applications) {xfce4-mime-settings} </home/joaquim/.config/fbmenugen/icons/49cdf964948ef5f1b77fdee45c904812.png>
+  [exec] (Desktop Preferences) {pcmanfm --desktop-pref} </home/joaquim/.config/fbmenugen/icons/db9d356c3ad9695e4a900c69f0e6e307.png>
+  [exec] (Desktop Settings) {mintdesktop} </home/joaquim/.config/fbmenugen/icons/db9d356c3ad9695e4a900c69f0e6e307.png>
+  [exec] (Desktop) {xfdesktop-settings} </home/joaquim/.config/fbmenugen/icons/db9d356c3ad9695e4a900c69f0e6e307.png>
+  [exec] (Disks) {gnome-disks} </home/joaquim/.config/fbmenugen/icons/74c7e43ddc6baa7a7f6745db0ccd5fda.png>
+  [exec] (Display) {xfce4-display-settings} </home/joaquim/.config/fbmenugen/icons/0f56c7b1f378ff0bfb9e8c6bf0a20320.png>
+  [exec] (Driver Manager) {pkexec driver-manager} </home/joaquim/.config/fbmenugen/icons/673dfb3b54775146f6fd92a1c0802b5b.png>
+  [exec] (Firewall Configuration) {gufw} </home/joaquim/.config/fbmenugen/icons/84298997675cb746586effd5105fedc1.png>
+  [exec] (Indicator-LockKeys) {indicator-keylock} </home/joaquim/.config/fbmenugen/icons/537d1379afa5692cb777f5ac116c8654.png>
+  [exec] (Input method) {mintlocale-im} </home/joaquim/.config/fbmenugen/icons/0785ad7f02ace667b86eb073a1e54fca.png>
+  [exec] (Keyboard) {xfce4-keyboard-settings} </home/joaquim/.config/fbmenugen/icons/37f2d1321e1cacdb8658c77cdbb0ecb6.png>
+  [exec] (Languages) {mintlocale} </home/joaquim/.config/fbmenugen/icons/412fe3a55895db667f81ca254454ff7c.png>
+  [exec] (Light Locker Settings) {/usr/bin/light-locker-settings} </home/joaquim/.config/fbmenugen/icons/4def5055ed847cbae2e1918802ea249e.png>
+  [exec] (Login Window) {pkexec lightdm-settings} </home/joaquim/.config/fbmenugen/icons/611ca3d18e6f53af1c984e1c3b6a8d17.png>
+  [exec] (Menu Editor) {/usr/bin/menulibre} </home/joaquim/.config/fbmenugen/icons/1c88d282c93f858cc84b22089eeb3913.png>
+  [exec] (Mouse and Touchpad) {xfce4-mouse-settings} </home/joaquim/.config/fbmenugen/icons/9246995a5b0ed3e4cc0ece853f0bf240.png>
+  [exec] (Notifications) {xfce4-notifyd-config} </home/joaquim/.config/fbmenugen/icons/1024d85241ec6d4d1a8e30c9ed555537.png>
+  [exec] (Openbox Configuration Manager) {obconf} </home/joaquim/.config/fbmenugen/icons/fe958a05acb458c59556f0e3631f5a6b.png>
+  [exec] (Panel) {xfce4-panel --preferences} </home/joaquim/.config/fbmenugen/icons/7eeeeb6c9a0b9348740268fc8e0f293f.png>
+  [exec] (Power Management) {mate-power-preferences} </home/joaquim/.config/fbmenugen/icons/c509698effb9d7d04154de696088c30c.png>
+  [exec] (Power Manager) {xfce4-power-manager-settings} </home/joaquim/.config/fbmenugen/icons/b6074543b3b434604e35008ee8a95995.png>
+  [exec] (Printers) {system-config-printer} </home/joaquim/.config/fbmenugen/icons/02e29207a105a8e41f56320c30f58f5f.png>
+  [exec] (Qt5 Settings) {qt5ct} </home/joaquim/.config/fbmenugen/icons/3e80739c67966809e9b55e96c784f339.png>
+  [exec] (Removable Drives and Media) {thunar-volman-settings} </home/joaquim/.config/fbmenugen/icons/3fb42f0bab67c13ddeae5c1f2c5c0a37.png>
+  [exec] (Screensaver) {xscreensaver-demo} </home/joaquim/.config/fbmenugen/icons/4def5055ed847cbae2e1918802ea249e.png>
+  [exec] (Session and Startup) {xfce4-session-settings} </home/joaquim/.config/fbmenugen/icons/759c1727bc5758933f0225e54c1ad31d.png>
+  [exec] (Settings Editor) {xfce4-settings-editor} </home/joaquim/.config/fbmenugen/icons/532b18d9a76a3eda5ed4cde8648784ad.png>
+  [exec] (Settings Manager) {xfce4-settings-manager} </home/joaquim/.config/fbmenugen/icons/a25d8d1463fb70a34e61d9cea6e8a083.png>
+  [exec] (Software Manager) {mintinstall} </home/joaquim/.config/fbmenugen/icons/48d965799d0b55bef6b27836e1e9ba2c.png>
+  [exec] (Software Sources) {pkexec mintsources} </home/joaquim/.config/fbmenugen/icons/7fecd1066d6ec11cd3088896337d4ace.png>
+  [exec] (Synaptic Package Manager) {synaptic-pkexec} </home/joaquim/.config/fbmenugen/icons/b49750ca1b41def129878037c86d7586.png>
+  [exec] (System Reports) {mintreport} </home/joaquim/.config/fbmenugen/icons/418ca5d7362032d9a27d9a2860af48bd.png>
+  [exec] (Time and Date) {time-admin} </home/joaquim/.config/fbmenugen/icons/644ee5989fbb47871ef1f7fb9ff003c6.png>
+  [exec] (Tint2 Settings) {tint2conf} </home/joaquim/.config/fbmenugen/icons/f4d194993896479390e57572bb019487.png>
+  [exec] (Update Manager) {mintupdate} </home/joaquim/.config/fbmenugen/icons/bdcd236e7dc96fc4a3364625dad7ec77.png>
+  [exec] (Users and Groups) {users-admin} </home/joaquim/.config/fbmenugen/icons/f7ef2317300847e2e174c1819d0c937f.png>
+  [exec] (Welcome Screen) {mintwelcome} </home/joaquim/.config/fbmenugen/icons/4a009345de9d3f3f48334139b73d9113.png>
+  [exec] (Window Manager Tweaks) {xfwm4-tweaks-settings} </home/joaquim/.config/fbmenugen/icons/90b66a10d9df54095e78b08c9f30c1a1.png>
+  [exec] (Window Manager) {xfwm4-settings} </home/joaquim/.config/fbmenugen/icons/7ab32e74180fbe2c100bcdcd7876ba3f.png>
+  [exec] (Workspaces) {xfwm4-workspace-settings} </home/joaquim/.config/fbmenugen/icons/6c7e2b38feaa792dcdfa43fbce55f153.png>
+[end]
+[submenu] (System) </home/joaquim/.config/fbmenugen/icons/532b18d9a76a3eda5ed4cde8648784ad.png>
+  [exec] (Backup Tool) {mintbackup} </home/joaquim/.config/fbmenugen/icons/20e0abf05137a8632db3f150230864aa.png>
+  [exec] (Bulk Rename) {thunar --bulk-rename} </home/joaquim/.config/fbmenugen/icons/b3522306e8c0dac30be90a73ded14762.png>
+  [exec] (Configuration Editor) {gconf-editor} </home/joaquim/.config/fbmenugen/icons/a25d8d1463fb70a34e61d9cea6e8a083.png>
+  [exec] (CPU-G) {/opt/extras.ubuntu.com/cpu-g/bin/cpu-g} </home/joaquim/.config/fbmenugen/icons/ed68b48a53c9726d968c1cad534b85d6.png>
+  [exec] (dconf Editor) {dconf-editor} </home/joaquim/.config/fbmenugen/icons/aa25661a6ea393c89dd3c230b7396b28.png>
+  [exec] (Disk Usage Analyzer) {baobab} </home/joaquim/.config/fbmenugen/icons/114a349075b718014941666e587eab52.png>
+  [exec] (Driver Manager) {pkexec driver-manager} </home/joaquim/.config/fbmenugen/icons/673dfb3b54775146f6fd92a1c0802b5b.png>
+  [exec] (File Browser) {/usr/bin/caja --no-desktop --browser} </home/joaquim/.config/fbmenugen/icons/735eaed294790e7aaee4d2f640f4ab55.png>
+  [exec] (File Manager PCManFM) {pcmanfm} </home/joaquim/.config/fbmenugen/icons/735eaed294790e7aaee4d2f640f4ab55.png>
+  [exec] (gmrun) {gmrun} </home/joaquim/.config/fbmenugen/icons/1c29732fcef7d3e265a82da26f26423c.png>
+  [exec] (GNOME System Monitor) {gnome-system-monitor} </home/joaquim/.config/fbmenugen/icons/4fcac9f3c8732e6d863ef7626196ed5d.png>
+  [exec] (GParted) {/usr/sbin/gparted} </home/joaquim/.config/fbmenugen/icons/8962739356725155d7a57ff97928ab76.png>
+  [exec] (Gtk-ChTheme) {/usr/bin/gtk-chtheme} </home/joaquim/.config/fbmenugen/icons/5e016ce41fab1e5c4eb25202bc8596b3.png>
+  [exec] (Hardware Lister) {su-to-root -X -c lshw-gtk} </home/joaquim/.config/fbmenugen/icons/9fe7c26f30f47e08fbcb9a91964f6183.png>
+  [exec] (Hardware Locality lstopo) {lstopo} </home/joaquim/.config/fbmenugen/icons/5e016ce41fab1e5c4eb25202bc8596b3.png>
+  [exec] (Htop) {xfce4-terminal -e 'htop'} </home/joaquim/.config/fbmenugen/icons/b99b2f19574d3b52689cfb94b759876c.png>
+  [exec] (Log Out) {xfce4-session-logout} </home/joaquim/.config/fbmenugen/icons/effff4a3372cb1e9ca6fe319d4992138.png>
+  [exec] (Login Window) {pkexec lightdm-settings} </home/joaquim/.config/fbmenugen/icons/611ca3d18e6f53af1c984e1c3b6a8d17.png>
+  [exec] (Logs) {gnome-logs} </home/joaquim/.config/fbmenugen/icons/63bbb5d91634a7f3e63277c676b7d22d.png>
+  [exec] (MEGAsync) {megasync} </home/joaquim/.config/fbmenugen/icons/08c8995fbb35f3f5cdb1812de547a0ae.png>
+  [exec] (Oracle VM VirtualBox) {VirtualBox} </home/joaquim/.config/fbmenugen/icons/585c91c6edbff3831ca20c2b4d0c79ac.png>
+  [exec] (Power Statistics) {mate-power-statistics} </home/joaquim/.config/fbmenugen/icons/7482b1453a452304cc0c4b71d73cb1fd.png>
+  [exec] (Printers) {system-config-printer} </home/joaquim/.config/fbmenugen/icons/02e29207a105a8e41f56320c30f58f5f.png>
+  [exec] (Software Manager) {mintinstall} </home/joaquim/.config/fbmenugen/icons/48d965799d0b55bef6b27836e1e9ba2c.png>
+  [exec] (Software Manager) {mintinstall} </home/joaquim/.config/fbmenugen/icons/5e016ce41fab1e5c4eb25202bc8596b3.png>
+  [exec] (Software Sources) {pkexec mintsources} </home/joaquim/.config/fbmenugen/icons/7fecd1066d6ec11cd3088896337d4ace.png>
+  [exec] (Synaptic Package Manager) {synaptic-pkexec} </home/joaquim/.config/fbmenugen/icons/b49750ca1b41def129878037c86d7586.png>
+  [exec] (System Monitor) {gnome-system-monitor} </home/joaquim/.config/fbmenugen/icons/4fcac9f3c8732e6d863ef7626196ed5d.png>
+  [exec] (System Monitor) {mate-system-monitor} </home/joaquim/.config/fbmenugen/icons/b99b2f19574d3b52689cfb94b759876c.png>
+  [exec] (System Profiler and Benchmark) {/usr/bin/hardinfo} </home/joaquim/.config/fbmenugen/icons/5a553c49b877d72cf5cbb22b98ef3e5a.png>
+  [exec] (System Reports) {mintreport} </home/joaquim/.config/fbmenugen/icons/418ca5d7362032d9a27d9a2860af48bd.png>
+  [exec] (Task Manager) {xfce4-taskmanager} </home/joaquim/.config/fbmenugen/icons/b99b2f19574d3b52689cfb94b759876c.png>
+  [exec] (Thunar File Manager) {thunar} </home/joaquim/.config/fbmenugen/icons/b3522306e8c0dac30be90a73ded14762.png>
+  [exec] (Time and Date) {time-admin} </home/joaquim/.config/fbmenugen/icons/644ee5989fbb47871ef1f7fb9ff003c6.png>
+  [exec] (Timeshift) {pkexec timeshift-gtk} </home/joaquim/.config/fbmenugen/icons/0bffbe90f15c87fa2faafeca48e4dadb.png>
+  [exec] (Tint2) {tint2} </home/joaquim/.config/fbmenugen/icons/5730c91d0d4438b0f972dd8c03f9d2b6.png>
+  [exec] (Update Manager) {mintupdate} </home/joaquim/.config/fbmenugen/icons/bdcd236e7dc96fc4a3364625dad7ec77.png>
+  [exec] (Update Manager) {mintupdate} </home/joaquim/.config/fbmenugen/icons/bdcd236e7dc96fc4a3364625dad7ec77.png>
+  [exec] (USB Image Writer) {mintstick -m iso} </home/joaquim/.config/fbmenugen/icons/6ddf4243a11687383fec86854b58537e.png>
+  [exec] (USB Stick Formatter) {mintstick -m format} </home/joaquim/.config/fbmenugen/icons/6ddf4243a11687383fec86854b58537e.png>
+  [exec] (Users and Groups) {users-admin} </home/joaquim/.config/fbmenugen/icons/f7ef2317300847e2e174c1819d0c937f.png>
+  [exec] (Xfce Terminal) {xfce4-terminal} </home/joaquim/.config/fbmenugen/icons/16c9daa633fa95e6865491442608acc0.png>
+[end]
+[separator]
+[submenu] (Advanced Settings) </home/joaquim/.config/fbmenugen/icons/967bde40577b19ba515a441628bd2c37.png>
+  [exec] (Conky RC) {xed ~/.conkyrc} </home/joaquim/.config/fbmenugen/icons/8e31be71ec658cfed909d064bdd8a03a.png>
+  [exec] (Tint2 Panel) {xed ~/.config/tint2/tint2rc} </home/joaquim/.config/fbmenugen/icons/8e31be71ec658cfed909d064bdd8a03a.png>
+[submenu] (Fbmenugen) </home/joaquim/.config/fbmenugen/icons/39664cbfbd803abe112c5905c88e78a5.png>
+  [exec] (Menu Schema) {xed ~/.config/fbmenugen/schema.pl} </home/joaquim/.config/fbmenugen/icons/8e31be71ec658cfed909d064bdd8a03a.png>
+  [exec] (Menu Config) {xed ~/.config/fbmenugen/config.pl} </home/joaquim/.config/fbmenugen/icons/8e31be71ec658cfed909d064bdd8a03a.png>
+[separator]
+  [exec] (Generate a menu with icons) {fbmenugen -i} </home/joaquim/.config/fbmenugen/icons/39664cbfbd803abe112c5905c88e78a5.png>
+  [exec] (Generate a menu without icons) {fbmenugen -g} </home/joaquim/.config/fbmenugen/icons/39664cbfbd803abe112c5905c88e78a5.png>
+[separator]
+  [exec] (Refresh cache) {fbmenugen -d} </home/joaquim/.config/fbmenugen/icons/84955159c3b53e04ff7305e790e1b581.png>
+[end]
+[submenu] (Fluxbox) </home/joaquim/.config/fbmenugen/icons/a25d8d1463fb70a34e61d9cea6e8a083.png>
+[config] (Configure)
+[submenu] (System Styles) {Choose a style...}
+  [stylesdir] (/usr/share/fluxbox/styles)
+[end]
+[submenu] (User Styles) {Choose a style...}
+  [stylesdir] (~/.fluxbox/styles)
+[end]
+[workspaces] (Workspace List)
+[submenu] (Tools)
+  [exec] (Screenshot - JPG) {import screenshot.jpg && display -resize 50% screenshot.jpg}
+  [exec] (Screenshot - PNG) {import screenshot.png && display -resize 50% screenshot.png}
+  [exec] (Run) {fbrun}
+  [exec] (Regen Menu) {fluxbox-generate_menu}
+[end]
+[commanddialog] (Fluxbox Command)
+  [reconfig] (Reload config)
+  [restart] (Restart)
+  [exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
+  [separator]
+  [exit] (Exit)
+[end]
+[end]
+[separator]
+  [exec] (Refresh) {/usr/bin/perl \/home\/joaquim\/\.config\/fbmenugen\/fbmenugen -i -S \/home\/joaquim\/\.config\/fbmenugen\/schema\.pl -C \/home\/joaquim\/\.config\/fbmenugen\/config\.pl -o \/home\/joaquim\/\.fluxbox\/menu} </home/joaquim/.config/fbmenugen/icons/84955159c3b53e04ff7305e790e1b581.png>
+  [exec] (Exit) {lxsession-logout} </home/joaquim/.config/fbmenugen/icons/aa628f483d98eeb04b80dc9ef445a4bc.png>
+
+[endencoding]
+[end]
