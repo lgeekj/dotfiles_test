@@ -1,0 +1,15 @@
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/show-tray-icon -s true
+tint2 -c .config/tint2/raven/raven-grey.tint2rc &
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & 
+export NO_AT_BRIDGE=1 
+conky -c .conky/Minimalis\ Conky/conky.conf &
+xfce4-power-manager &
+#compton --backend glx --paint-on-overlay --vsync opengl-swc &
+picom &
+flameshot &
+volumeicon &
+clipit &
+touchpad-indicator &
+nitrogen --restore &
+xscreensaver -no-splash &
+alttab -s 0 &
