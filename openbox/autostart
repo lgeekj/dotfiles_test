@@ -5,7 +5,8 @@ export NO_AT_BRIDGE=1
 conky -c .conky/Minimalis\ Conky/conky.conf &
 xfce4-power-manager &
 #compton --backend glx --paint-on-overlay --vsync opengl-swc &
-picom &
+compton &
+#picom &
 flameshot &
 volumeicon &
 clipit &
