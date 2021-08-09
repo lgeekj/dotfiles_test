@@ -1,3 +1,4 @@
+#!/bin/bash
 ##### packages for ubuntu 
 ##### execute as root or with sudo
 
