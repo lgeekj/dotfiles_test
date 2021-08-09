@@ -52,7 +52,7 @@ our $SCHEMA = [
     #          COMMAND                 LABEL              ICON
     {item => ['xfce4-terminal',            'Terminal',     'utilities-terminal']},
     {item => ['xdg-open .',       'File Manager', 'system-file-manager']},    
-    #{item => ['xdg-open http://', 'Web Browser',  'web-browser']},
+    {item => ['xdg-open http://', 'Web Browser',  'web-browser']},
     {item => ['xfce4-appfinder -c',            'Run command',  'system-run']},
 
     {sep => 'Categories'},
