@@ -24,7 +24,7 @@ sudo apt-get install -y alttab libc6-dev apt-xapian-index arandr build-essential
 
 #other file managers
 caja
-nemo
+nemo <- install after
 pcmanfm 
 spacefm
 
