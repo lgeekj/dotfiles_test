@@ -41,6 +41,11 @@ spacefm
 wget "https://launchpad.net/~tsbarnes/+archive/ubuntu/indicator-keylock/+build/19439761/+files/indicator-keylock_3.1.1-0~ppa1_amd64.deb" -O /tmp/
 gdebi /tmp/indicator-keylock_3.1.1-0~ppa1_amd64.deb
 
+#obkey
+https://github.com/luffah/obkey/raw/master/obkey.deb
+
+
+
 #as normal user
 xdg-mime default thunar.desktop inode/directory
 
