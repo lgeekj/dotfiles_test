@@ -37,3 +37,9 @@ wget "https://launchpad.net/~tsbarnes/+archive/ubuntu/indicator-keylock/+build/1
 
 #as normal user
 xdg-mime default thunar.desktop inode/directory
+
+#make nemo file manager use xfce4-terminal 
+gsettings set org.cinnamon.desktop.default-applications.terminal exec xfce4-terminal
+
+#default nemo
+gsettings set org.cinnamon.desktop.default-applications.terminal exec gnome-terminal
