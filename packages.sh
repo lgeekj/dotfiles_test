@@ -44,6 +44,14 @@ https://mega.io/sync
 https://www.microsoft.com/pt-pt/microsoft-teams/download-app#desktopAppDownloadregion
 
 
+#mouse
+https://www.gnome-look.org/p/1356095
+
+#icons
+https://www.gnome-look.org/p/1166289/
+
+#theme
+https://www.gnome-look.org/p/1187179
 
 #other file managers
 caja
