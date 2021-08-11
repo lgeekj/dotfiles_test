@@ -32,6 +32,12 @@ sudo apt-get install -y alttab libc6-dev apt-xapian-index arandr build-essential
 ##cpu frequency
 https://github.com/AdnanHodzic/auto-cpufreq
 
+https://mega.io/sync
+
+https://www.microsoft.com/pt-pt/microsoft-teams/download-app#desktopAppDownloadregion
+
+
+
 #other file managers
 caja
 nemo <- install after
