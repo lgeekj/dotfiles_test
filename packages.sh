@@ -5,6 +5,7 @@
 sudo add-apt-repository -y ppa:atareao/atareao
 sudo add-apt-repository -y ppa:obsproject/obs-studio
 sudo add-apt-repository -y ppa:linuxuprising/apps
+sudo add-apt-repository -y ppa:flexiondotorg/cpu-x
 #sudo add-apt-repository -y ppa:yannubuntu/boot-repair
 #sudo add-apt-repository -y ppa:slimbook/slimbook
 
