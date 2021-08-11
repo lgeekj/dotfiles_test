@@ -18,6 +18,11 @@ sudo apt-get install -y alttab libc6-dev apt-xapian-index arandr build-essential
 
 sudo apt-get install -y touchpad-indicator obs-studio i7z cpu-x tlpui
 
+sudo cp /etc/default/grub /etc/default/grub.orig
+
+#kernel above 5.4 need intel_pstate=active so governor works correctly
+sudo sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="[^"]*/& intel_pstate=active/' /etc/default/grub
+
 #kodi should be ppa  
 #mega.io desktop app
 #slack desktop app 
