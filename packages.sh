@@ -31,6 +31,9 @@ sudo sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="[^"]*/& intel_pstate=active/' /etc/de
 #zoom deb 
 #
 
+#flameshot 
+curl -s https://api.github.com/repos/flameshot-org/flameshot/releases/latest | grep browser_download_url | grep amd64 | grep -v "sum" | grep "20.04" | cut -d '"' -f 4 | wget -i -
+
 #orage (not installable on linuxmint)
 #resolvconf
 #wpagui
@@ -39,12 +42,25 @@ sudo sed -i 's/GRUB_CMDLINE_LINUX_DEFAULT="[^"]*/& intel_pstate=active/' /etc/de
 ##cpu frequency
 https://github.com/AdnanHodzic/auto-cpufreq
 
+#slack
+https://downloads.slack-edge.com/releases/linux/4.18.0/prod/x64/slack-desktop-4.18.0-amd64.deb
+
+#discord
+https://discord.com/api/download?platform=linux&format=deb
+https://dl.discordapp.net/apps/linux/0.0.15/discord-0.0.15.deb
+
+#mega
 https://mega.io/sync
 
+#teams
 https://www.microsoft.com/pt-pt/microsoft-teams/download-app#desktopAppDownloadregion
 
+#zoom 
+https://zoom.us/client/latest/zoom_amd64.deb
 
-#mouse
+-----------------------------------------------------------------------------------
+
+#mouse icon
 https://www.gnome-look.org/p/1356095
 
 #icons
