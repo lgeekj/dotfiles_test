@@ -93,6 +93,9 @@ wget "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.13.2-beta/fre
 #obkey
 https://github.com/luffah/obkey/raw/master/obkey.deb
 
+#bashtop
+wget "https://launchpad.net/~bashtop-monitor/+archive/ubuntu/bashtop/+files/bashtop_0.9.25+git277-4bf71e6~ubuntu20.04.1_amd64.deb" -P /tmp
+
 
 #as normal user
 xdg-mime default thunar.desktop inode/directory
