@@ -13,4 +13,5 @@ clipit &
 touchpad-indicator &
 nitrogen --restore &
 xscreensaver -no-splash &
+/usr/bin/caffeine-indicator &
 alttab -s 0 &
