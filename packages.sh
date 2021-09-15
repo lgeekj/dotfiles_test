@@ -2,6 +2,10 @@
 ##### packages for ubuntu 
 ##### execute as root or with sudo
 
+sudo apt-get remove --purge compiz-core
+
+XFCE use xfwm4 + compton
+
 sudo add-apt-repository -y ppa:obsproject/obs-studio
 sudo add-apt-repository -y ppa:flexiondotorg/cpu-x
 sudo add-apt-repository -y ppa:appimagelauncher-team/stable
