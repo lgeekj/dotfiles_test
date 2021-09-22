@@ -1,6 +1,7 @@
 tint2 -c .config/tint2/raven/raven-grey.tint2rc &
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/show-tray-icon -s true
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & 
+/usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd & #handle notifications  
 export NO_AT_BRIDGE=1 
 $HOME/.conky/conky-startup.sh &
 xfce4-power-manager &
