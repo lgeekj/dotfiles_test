@@ -1,10 +1,14 @@
 tint2 -c .config/tint2/raven/raven-grey.tint2rc &
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/show-tray-icon -s true
-/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & 
-/usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd & #handle notifications  
+
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & #ubuntu
+
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & #manjaro/arch
+
+/usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd & #handle notifications ubuntu
+#/usr/lib64/xfce4/notifyd/xfce4-notifyd & #handle notifications manjaro/arch
 export NO_AT_BRIDGE=1 
 $HOME/.conky/conky-startup.sh &
-xfce4-power-manager &
 #compton --backend glx --paint-on-overlay --vsync opengl-swc &
 compton &
 #picom &
@@ -16,5 +20,6 @@ touchpad-indicator &
 alttab -s 0 &
 #megasync &
 remmina -i &
-/usr/bin/caffeine-indicator &
+/usr/bin/caffeine-indicator & #ubuntu
+#/usr/bin/caffeine & #manjaro/arch
 nitrogen --restore
