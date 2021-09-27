@@ -37,6 +37,8 @@ sudo apt-get install -y alttab libc6-dev apt-xapian-index arandr build-essential
 
 sudo apt-get install -y touchpad-indicator cpu-x tlpui obs-studio
 
+sudo apt-get install nvtop ##nvidia top monitor utility
+
 #sudo cp /etc/default/grub /etc/default/grub.orig
 
 #kernel above 5.4 need intel_pstate=active so governor works correctly
@@ -60,7 +62,7 @@ curl -s https://api.github.com/repos/flameshot-org/flameshot/releases/latest | g
 
 
 ##cpu frequency
-https://github.com/AdnanHodzic/auto-cpufreq
+#https://github.com/AdnanHodzic/auto-cpufreq
 
 #slack
 https://downloads.slack-edge.com/releases/linux/4.18.0/prod/x64/slack-desktop-4.18.0-amd64.deb
