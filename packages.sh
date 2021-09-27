@@ -78,6 +78,9 @@ https://www.microsoft.com/pt-pt/microsoft-teams/download-app#desktopAppDownloadr
 #zoom 
 https://zoom.us/client/latest/zoom_amd64.deb
 
+#freetube
+https://freetubeapp.io/#download
+
 -----------------------------------------------------------------------------------
 
 #mouse icon
