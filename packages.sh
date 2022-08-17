@@ -7,8 +7,8 @@ sudo apt-get remove --purge compiz-core
 XFCE use xfwm4 + compton
 
 sudo add-apt-repository -y ppa:obsproject/obs-studio
-sudo add-apt-repository -y ppa:flexiondotorg/cpu-x
-sudo add-apt-repository -y ppa:appimagelauncher-team/stable
+#sudo add-apt-repository -y ppa:flexiondotorg/cpu-x
+#sudo add-apt-repository -y ppa:appimagelauncher-team/stable
 sudo add-apt-repository -y ppa:linuxuprising/apps #tlp-ui (dont need on desktop)
 sudo add-apt-repository -y ppa:atareao/atareao #touchpad-indicator (dont need on desktop)
 #sudo add-apt-repository -y ppa:yannubuntu/boot-repair
@@ -109,10 +109,10 @@ wget "https://launchpad.net/~tsbarnes/+archive/ubuntu/indicator-keylock/+build/1
 gdebi /tmp/indicator-keylock_3.1.1-0~ppa1_amd64.deb
 
 #balena
-wget "https://github.com/balena-io/etcher/releases/download/v1.5.121/balena-etcher-electron_1.5.121_amd64.deb" -P /tmp/
+curl -s https://api.github.com/repos/balena-io/etcher/releases/latest | grep browser_download_url | grep amd64 | cut -d '"' -f 4 | wget -i -
 
 #freetube
-wget "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.13.2-beta/freetube_0.13.2_amd64.deb" -P /tmp/
+curl -s https://api.github.com/repos/FreeTubeApp/FreeTube/releases | grep browser_download_url | grep "amd64.deb" | head -n1 | cut -d '"' -f 4 | wget -i -
 
 #obkey
 https://github.com/luffah/obkey/raw/master/obkey.deb
